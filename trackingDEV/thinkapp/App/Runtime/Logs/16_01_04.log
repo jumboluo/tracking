@@ -1,0 +1,27 @@
+[ 2016-01-04T23:15:49+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/index | INFO: Tag[ route_check ] --START--
+[ 2016-01-04T23:15:49+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/index | INFO: Run CheckRoute Behavior [ RunTime:0.001132s ]
+[ 2016-01-04T23:15:49+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001248s ]
+[ 2016-01-04T23:15:49+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/index | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 123 行.
+[ 2016-01-04T23:15:49+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/index | INFO: Tag[ app_begin ] --START--
+[ 2016-01-04T23:15:49+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000975s ]
+[ 2016-01-04T23:15:49+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001061s ]
+[ 2016-01-04T23:25:19+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/check | INFO: Array
+(
+)
+
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | INFO: url=/trackingDEV/
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | INFO: url=/trackingDEV/
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | INFO: Tag[ route_check ] --START--
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | INFO: Run CheckRoute Behavior [ RunTime:0.000973s ]
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | INFO: Tag[ route_check ] --END-- [ RunTime:0.001088s ]
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead Dispatcher.class.php 第 123 行.
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | INFO: Tag[ app_begin ] --START--
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000761s ]
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000856s ]
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead DbMysql.class.php 第 67 行.
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | SQL: SHOW COLUMNS FROM `user_log` [ RunTime:0.003976s ]
+[ 2016-01-04T23:26:21+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/logout | SQL: INSERT INTO `user_log` (`user_id`,`user_name`,`time`,`operation`,`result`,`result_type`,`memo`) VALUES ('1','系统管理员','2016-01-04 23:26:21','登出','登出成功','成功','') [ RunTime:0.049092s ]
+[ 2016-01-04T23:26:22+08:00 ] /trackingDEV/thinkapp/index.php/Authenticate/check | INFO: Array
+(
+)
+

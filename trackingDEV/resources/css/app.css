@@ -1,0 +1,815 @@
+@CHARSET "UTF-8";
+
+/**** Login START ****/
+.user {
+	background: url(../images/user.gif) no-repeat 1px 2px;
+}
+
+.key {
+	background: url(../images/key.png) no-repeat 1px 2px;
+}
+/**** Login END ****/
+
+/**** Main Head START ****/
+.head {
+	background : #3971ce;
+	height : 38px;
+	width : 100%;
+}
+
+.head_right {
+	background: url(../images/head_right.jpg) no-repeat;
+	height : 38px;
+	width : 400px;
+	float : right;
+	padding-top : 4px;
+}
+
+.logo {
+	margin-left : 150px;
+	height : 38px;
+	width : 200px;
+	float : left;
+}
+
+.clr {
+	clear : both;
+}
+
+#head_timer {
+	background: url(../images/clock.png) no-repeat;
+	float : right;
+	padding-left: 20px;
+	margin-right : 5px;
+	margin-bottom : 2px;
+}
+#head_password {
+	float : right;
+	margin-right : 5px;
+	margin-bottom : 2px;
+}
+
+#user_name {
+	background: url(../images/user.gif) no-repeat;
+	float : right;
+	padding-left: 20px;
+	margin-right : 10px;
+}
+
+#user_role {
+	background: url(../images/agent.png) no-repeat;
+	float : right;
+	padding-left: 20px;
+	margin-right : 10px;
+}
+
+#head_logout {
+	float : right;
+	margin-right : 5px;
+}
+
+#head_logout img, #head_password img {
+	vertical-align : bottom;
+}
+
+#head_logout a, #head_password a {
+	text-decoration : none;
+}
+/**** Main Head END ****/
+
+
+/**** Main Menu START ****/
+.menu {
+	background: url(../images/menu.png) no-repeat;
+}
+/*修正菜单收缩时的图标位置问题*/
+.x-region-collapsed-placeholder .menu {
+	background: url(../images/menu.png) no-repeat 3px 3px;
+	width: 19px;
+	height: 19px;
+}
+
+.menu_item {
+	background: url(../images/menu_level2.png) no-repeat 3px 3px;
+	padding: 3px 0 3px 25px;
+	margin: 3px;
+	cursor: pointer;
+	display: block;
+	list-style-type: none;
+}
+
+.menu_item:hover {
+	background-color: #DCE6F4;
+}
+
+.menu_level1 {
+	background: url(../images/menu_level1.png) no-repeat;
+}
+
+.menu_level2 {
+	background: url(../images/menu_level2.png) no-repeat 3px 3px;
+}
+
+/**** Main Menu END ****/
+
+
+/**** Welcome START ****/
+.welcome_icon {
+	float: left;
+	margin: 15px 10px;
+	min-width: 90px;
+	min-height: 15px;
+	padding: 5px;
+	padding-top: 55px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#welcome-tab-body div:hover {
+	background-color: #DCE6F4;
+}
+
+.big_icon {
+	background: url(../images/icon_big.png) no-repeat 50% 5px;
+}
+
+/**** Welcome END ****/
+
+/**** 监控中心 START ****/
+.toolbar-allonline {
+    background-image:url(../images/all_online.png) !important;
+}
+.toolbar-online {
+    background-image:url(../images/online.png) !important;
+}
+.toolbar-offline {
+    background-image:url(../images/offline.png) !important;
+}
+.toolbar-nolocation {
+    background-image:url(../images/nolocation.png) !important;
+}
+.toolbar-alarm {
+    background-image:url(../images/alarm.png) !important;
+}
+.toolbar-refresh {
+    background-image:url(../images/arrow_refresh.png) !important;
+}
+.toolbar-city {
+    background-image:url(../images/map_go.png) !important;
+}
+.toolbar-traffic {
+    background-image:url(../images/traffic_light.png) !important;
+}
+.toolbar-distance {
+    background-image:url(../images/ruler.png) !important;
+}
+.toolbar-magnify {
+    background-image:url(../images/map_magnify.png) !important;
+}
+.toolbar-fullscreen {
+    background-image:url(../images/arrow_inout.png) !important;
+}
+/***车辆状态***/
+.normal_online {
+    background:url(../images/online.png) no-repeat left center ;
+    padding-left: 20px;
+}
+.normal_offline {
+    background:url(../images/offline.png) no-repeat left center ;
+    padding-left: 20px;
+}
+
+
+/**** 监控中心 END ****/
+
+/**** WsMessageBox START ****/
+#msg-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:300px;
+    z-index:20000;
+}
+#msg-div .msg {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    background: #F6F6F6;
+    border: 2px solid #ccc;
+    margin-top: 2px;
+    padding: 10px 15px;
+    color: #555;
+}
+#msg-div .msg h3 {
+    margin: 0 0 8px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#msg-div .msg p {
+    margin: 0;
+}
+/**** WsMessageBox END ****/
+
+
+/**** CheckColumn START ****/
+.x-grid-checkheader {
+    height: 14px;
+    background-image: url('../images/unchecked.gif');
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.x-grid-checkheader-checked {
+    background-image: url('../images/checked.gif');
+}
+
+.x-grid-checkheader-editor .x-form-cb-wrap {
+    text-align: center;
+}
+/**** CheckColumn END ****/
+
+/**** General icons START ****/
+.add {
+	background: url(../images/add.png) no-repeat;
+}
+
+.edit {
+	background: url(../images/edit.png) no-repeat;
+}
+
+.delete {
+	background: url(../images/delete.png) no-repeat;
+}
+
+.refresh {
+	background: url(../images/refresh.gif) no-repeat;
+}
+
+.save {
+	background: url(../images/save.png) no-repeat;
+}
+
+.map_add {
+	background: url(../images/map_add.png) no-repeat;
+}
+
+.map_edit {
+	background: url(../images/map_edit.png) no-repeat;
+}
+
+.map_delete {
+	background: url(../images/map_delete.png) no-repeat;
+}
+
+.map_magnify {
+	background: url(../images/map_magnify.png) no-repeat;
+}
+
+.arrow_left {
+	background: url(../images/arrow_left.png) no-repeat;
+}
+
+.arrow_right {
+	background: url(../images/arrow_right.png) no-repeat;
+}
+
+.search {
+	background: url(../images/magnify.png) no-repeat;
+}
+
+.search_big {
+	background: url(../images/magnify_big.png) no-repeat;
+}
+
+.print_big {
+	background: url(../images/printer_32x32.png) no-repeat;
+}
+
+.printpreview_big {
+	background: url(../images/document_print_preview_32x32.png) no-repeat;
+}
+
+.email {
+	background: url(../images/email.png) no-repeat;
+}
+
+.sms {
+	background: url(../images/sms.png) no-repeat;
+}
+
+.excel {
+	background: url(../images/excel.png) no-repeat;
+}
+
+.excel_big {
+	background: url(../images/excel_32x32.png) no-repeat;
+}
+
+.print {
+	background: url(../images/print.png) no-repeat;
+}
+
+
+.x-form-multiselect-body .x-boundlist {
+	border-style: none;
+}
+
+/**字段右边的label，需要跟x-field-inline连用才行，并且最好在最后加<br>，以便能换行**/
+.x-field-right-label {
+	line-height: 20px;
+	vertical-align: top;
+}
+
+.x-field-inline {
+	display:inline-block;
+	*display:inline;
+}
+
+.x-action-col-cell img {
+    cursor: pointer;
+    height: 16px;
+    width: 16px;
+}
+/**** General icons END ****/
+
+
+/***** 地图控件或覆盖物  START   *****/
+
+/**最后更新时间显示控件**/
+.lastupdate-timer {
+	background: url(../images/lastupdatetimer_bg.png) no-repeat;
+	height: 20px;
+	width: 130px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+/** 定位覆盖物 START **/
+.location-overlay {
+	height: 35px;
+	position: absolute;
+	overflow: hidden;
+}
+
+.location-overlay .text-cell div {
+	vertical-align: top;
+	line-height: 26px;
+	padding-left: 2px;
+	color: #0080FF;
+	white-space: nowrap;
+}
+
+.location-overlay-offline .text-cell div {
+	color: #505050;
+}
+
+.location-overlay-selected .text-cell div {
+	color: #66cc00;
+}
+
+.location-overlay-hover .text-cell div {
+	color: #a3cc00;
+}
+
+.location-overlay table {
+	border: 0;
+	margin: 0;
+}
+
+.location-overlay tr {
+	height: 35px;
+}
+
+.location-overlay td.icon-cell {
+	height: 35px;
+	width: 32px;
+	display: block;
+	padding-top: 2px;
+	padding-left: 4px;
+	background: url(../images/overlay-bg.png) no-repeat;
+}
+
+.location-overlay-icon {
+	height: 24px;
+	width: 24px;
+}
+
+.location-overlay-icon-0 {
+	background: url(../images/overlay-icon.png) 0 0 no-repeat;
+}
+.location-overlay-icon-1 {
+	background: url(../images/overlay-icon.png) 0 -24px no-repeat;
+}
+.location-overlay-icon-2 {
+	background: url(../images/overlay-icon.png) 0 -48px no-repeat;
+}
+.location-overlay-icon-3 {
+	background: url(../images/overlay-icon.png) 0 -72px no-repeat;
+}
+.location-overlay-icon-4 {
+	background: url(../images/overlay-icon.png) 0 -96px no-repeat;
+}
+.location-overlay-icon-5 {
+	background: url(../images/overlay-icon.png) 0 -120px no-repeat;
+}
+.location-overlay-icon-6 {
+	background: url(../images/overlay-icon.png) 0 -144px no-repeat;
+}
+.location-overlay-icon-7 {
+	background: url(../images/overlay-icon.png) 0 -168px no-repeat;
+}
+.location-overlay-icon-8 {
+	background: url(../images/overlay-icon.png) 0 -192px no-repeat;
+}
+.location-overlay-icon-new {
+	background: url(../images/overlay-icon.png) 0 -216px no-repeat;
+}
+.location-overlay-icon-lock {
+	background: url(../images/overlay-icon.png) 0 -240px no-repeat;
+}
+.location-overlay-icon-unlock {
+	background: url(../images/overlay-icon.png) 0 -264px no-repeat;
+}
+.location-overlay-icon-poorsignal {
+	background: url(../images/overlay-icon.png) 0 -288px no-repeat;
+}
+.location-overlay-icon-lowpower {
+	background: url(../images/overlay-icon.png) 0 -312px no-repeat;
+}
+.location-overlay-icon-loading {
+	background: url(../images/loading.gif) center no-repeat;
+}
+
+.x-grid-row-locationing .x-tree-icon-leaf {
+	background: url(../images/loading16x16.gif) center no-repeat;
+}
+
+.location-overlay-offline td.icon-cell {
+	background: url(../images/overlay-bg.png) 0 -70px no-repeat;
+}
+
+.location-overlay-selected td.icon-cell {
+	background: url(../images/overlay-bg.png) 0 -140px no-repeat;
+}
+
+.location-overlay-hover td.icon-cell {
+	background: url(../images/overlay-bg.png) 0 -210px no-repeat;
+}
+
+.location-overlay td.text-cell {
+	height: 35px;
+	white-space: nowrap;
+	background: url(../images/overlay-bg.png) 0 -35px repeat-x;
+}
+
+.location-overlay-offline td.text-cell {
+	background: url(../images/overlay-bg.png) 0 -105px repeat-x;
+}
+
+.location-overlay-selected td.text-cell {
+	background: url(../images/overlay-bg.png) 0 -175px repeat-x;
+}
+
+.location-overlay-hover td.text-cell {
+	background: url(../images/overlay-bg.png) 0 -245px repeat-x;
+}
+
+.location-overlay td.right-end-cell {
+	background: url(../images/overlay-bg.png) -32px 0 no-repeat;
+}
+
+.location-overlay-offline td.right-end-cell {
+	background: url(../images/overlay-bg.png) -32px -70px no-repeat;
+}
+
+.location-overlay-selected td.right-end-cell {
+	background: url(../images/overlay-bg.png) -32px -140px no-repeat;
+}
+
+.location-overlay-hover td.right-end-cell {
+	background: url(../images/overlay-bg.png) -32px -210px no-repeat;
+}
+
+.location-overlay td.right-end-cell div {
+	height: 35px;
+	width: 5px;
+	display:block;
+}
+
+.location-overlay img{
+	height: 24px;
+	width: 24px;
+	margin: 1px 4px;
+}
+/** 定位覆盖物 END **/
+
+/** 定位弹出窗口 START **/
+.map-tooltip-body {
+	
+}
+
+.map-tooltip-body .category{
+	line-height: 24px;
+/**	margin: 5px 0 2px 0; **/
+	font-weight: 700;
+	font-size: 14px;
+	color: #0080FF;
+}
+.map-tooltip-body .state {
+	padding-left: 26px;
+	height: 28px;
+	display: inline-block;
+}
+
+.map-tooltip-body .lowpower .state{
+	background: url(../images/battery_caution.png) no-repeat;
+}
+
+.map-tooltip-body .poorsignal .state{
+	background: url(../images/poorsignal.png) no-repeat;
+}
+
+.map-tooltip-body .normal .state{
+	background: url(../images/normal.png) no-repeat;
+}
+
+.map-tooltip-body .span_online{
+	margin-left: 20px;
+	padding-left: 24px;
+	height: 28px;
+	display: inline-block;
+}
+
+.map-tooltip-body .online .span_online{
+	background: url(../images/online.png) no-repeat 4px 4px;
+}
+.map-tooltip-body .offline .span_online{
+	background: url(../images/offline.png) no-repeat 4px 4px;
+}
+
+.map-tooltip-body .item .title {
+	font-weight: 700;
+}
+
+.map-tooltip-body .blueline {
+	margin: 10px 0 0 0;
+	height: 2px;
+	background-color: #0080FF;
+}
+/** 定位弹出窗口 END **/
+
+/*** 轨迹播放弹出窗口 START ***/
+.tracking-info {
+	
+}
+
+.tracking-info .info-win-head {
+	font-weight: 700;
+	font-size: 14px;
+	color: #0080FF;
+	height: 42px;
+	line-height: 40px;
+}
+.tracking-info .info-win-head span {
+	display: inline-block;
+	height: 42px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.tracking-info .info-win-head .direction {
+	width: 40px;
+	background: url(../images/dbg.png) no-repeat center center;
+}
+
+
+.tracking-info .info-win-head .direction span {
+	width: 40px;
+}
+
+.tracking-info .info-win-head .direction-0 span {
+	background: url(../images/d0.png) no-repeat center center;
+}
+.tracking-info .info-win-head .direction-1 span {
+	background: url(../images/d1.png) no-repeat center center;
+}
+.tracking-info .info-win-head .direction-2 span {
+	background: url(../images/d2.png) no-repeat center center;
+}
+.tracking-info .info-win-head .direction-3 span {
+	background: url(../images/d3.png) no-repeat center center;
+}
+.tracking-info .info-win-head .direction-4 span {
+	background: url(../images/d4.png) no-repeat center center;
+}
+.tracking-info .info-win-head .direction-5 span {
+	background: url(../images/d5.png) no-repeat center center;
+}
+.tracking-info .info-win-head .direction-6 span {
+	background: url(../images/d6.png) no-repeat center center;
+}
+.tracking-info .info-win-head .direction-7 span {
+	background: url(../images/d7.png) no-repeat center center;
+}
+.tracking-info .info-win-head .direction-8 span {
+	background: url(../images/d8.png) no-repeat center center;
+}
+
+
+.tracking-info .item .title {
+	font-weight: 700;
+}
+
+.tracking-info .blueline {
+	margin: 10px 0 0 0;
+	height: 2px;
+	background-color: #0080FF;
+}
+
+
+/*** 轨迹播放弹出窗口 END ***/
+
+/** 轨迹播放控件 START **/
+.track-control {
+	text-align: center;
+	border: 1px dashed #0080FF;
+}
+.track-control div {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map-text {
+	background: url(../images/map_text_bg.png) repeat;
+	text-shadow: #FFFFFF 1px 1px 0;
+}
+
+.track-control .device-select{
+	padding: 5px 10px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.track-control .device-select input, 
+.track-control .device-select label {
+	line-height: 20px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.track-control .device-select label.color-indicator {
+	display: inline-block;
+	height: 10px; 
+	width: 10px; 
+	margin: 6px 5px 4px 5px;
+}
+
+
+.track-play-button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	width: 40px;
+	background: url(../images/play_pause.png) no-repeat;
+	cursor: pointer;
+}
+
+.track-play-button:hover {
+	background: url(../images/play_pause.png) no-repeat 0 -40px;
+}
+
+.track-pause-button {
+	background: url(../images/play_pause.png) no-repeat 0 -80px;
+}
+
+.track-pause-button:hover {
+	background: url(../images/play_pause.png) no-repeat 0 -120px;
+}
+
+.track-play-button-disabled {
+	background: url(../images/play_pause.png) no-repeat 0 -160px;
+}
+
+.track-pause-button-disabled {
+	background: url(../images/play_pause.png) no-repeat 0 -200px;
+}
+
+.track-play-speed-slider {
+}
+
+.track-play-speed-display {
+	margin-bottom: 10px;
+}
+
+/** 轨迹播放控件 END **/
+
+/**** 地图图例控件 START ****/
+.legends-control {
+	border: 1px dashed #0080FF;
+}
+
+.legends-control .legend {
+	line-height: 20px;
+	border-top: 1px dashed #0080FF;
+	padding: 5px;
+}
+
+.legends-control .first-legend {
+	border-top: none;
+}
+
+.legends-control .legend .legend-name {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.legends-control .legend-radio {
+	vertical-align: middle;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.legends-control .color-indicator{
+	vertical-align: top;
+	display: inline-block;
+	height: 10px; 
+	width: 10px; 
+	margin: 6px 5px 4px 5px;
+	cursor: pointer;
+}
+
+/**** 地图图例控件 END ****/
+
+
+/***** 地图控件或覆盖物  END     *****/
+
+
+/**** 数据导入 START ****/
+.toolbar-link {
+    background-image:url(../images/link.png) !important;
+}
+.toolbar-link-break {
+    background-image:url(../images/link_break.png) !important;
+}
+/**** 数据导入 END ****/
+
+
+/*******定位中心右侧列表的“定位”和“轨迹”START******/
+.query-list-locate, .query-list-track {
+	color: #083772;
+}
+.query-list-locate:hover, .query-list-track:hover {
+	color: #0464bb;
+}
+
+.query-list-track {
+	padding-left: 5px;
+}
+
+/**********三态checkbox***********/
+.x-tree-checkbox-checkedsome {
+	background: url(../images/checked-some.gif) no-repeat;
+}
+
+
+/** 临时的　***/
+.icon_temp {
+	background: url(../images/icon_temp.png) no-repeat;
+}
+
+
+/*
+ * RangeMenu Styles
+ */
+
+.ux-rangemenu-icon {
+    margin-top: 0;
+}
+
+.ux-rangemenu-gt {
+    background-image: url(../images/greater_than.png) !important;
+}
+
+.ux-rangemenu-lt {
+    background-image: url(../images/less_than.png) !important;
+}
+
+.ux-rangemenu-eq {
+    background-image: url(../images/equals.png) !important;
+}
+
+/*
+ * GridFilters Styles
+ */
+
+.ux-filtered-column {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.ux-gridfilter-text-icon {
+    background-image: url(../images/find.png) !important;
+}
+
